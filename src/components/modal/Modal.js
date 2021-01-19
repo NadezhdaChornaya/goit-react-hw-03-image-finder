@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const Modal = () => {
+export const Modal = ({ url, onClick }) => {
     return (
-        <div className="Overlay">
+        <div className="Overlay" onClick={onClick}>
             <div className="Modal">
-                <img src="" alt="" />
+                <img src={url} alt="" />
             </div>
         </div>
     )
