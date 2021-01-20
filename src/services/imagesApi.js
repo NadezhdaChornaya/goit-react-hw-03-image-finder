@@ -8,5 +8,4 @@ export const fetchImagessWithQuery = (searchQuery, page = 1) => {
         .then(response => response.data.hits);
 };
 
-// export default fetchImagessWithQuery;
 
